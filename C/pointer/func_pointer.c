@@ -37,5 +37,5 @@ void keisan(int *p_point, int *p_sum, int *p_avg, int size)
     
     //ポインタp_avgが指すアドレスの中身に
     //ポインタp_sumが指すアドレスの中身を5で割ったものを代入
-    *p_avg = *p_sum / 5;
+    *p_avg = *p_sum / size;
 }
